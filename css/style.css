@@ -1,0 +1,233 @@
+/*
+	      Master Stylesheet
+===================================	
+	Template Name : Mission-Responsive Bootstrap Template
+	Author: Maqsudul Karim
+	Author Url: http://maqsudulkarim.com
+	Description: PSD to HTML Practise
+	Version: 1.0.0
+	Tag: Agency
+
+*/	
+
+/*
+         Table of Contents
+===================================
+		1. Typography
+		2.
+		3.
+		4.
+		5.
+		6.
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 35px;
+	color: #1c1c1c;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 62px;
+	color: #ffffff;
+	line-height: 65px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #909090;
+	margin: 0;
+	padding: 0;
+}
+
+/* =====================
+      Button Start
+=====================*/
+.btn{
+	font-family:'Raleway', sans-serif;
+	font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+	width: 185px;
+	height: 55px;
+	border-radius: 0;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	transition: 0.3s all ease-in-out;
+	margin: 0 15px;
+}
+
+.btn:hover{
+	background-color: #ff5722;
+	border-color: #ff5722;
+
+}
+/* =====================
+      Button End
+=====================*/
+
+
+/* =====================
+      Slider Start
+=====================*/
+
+/*  Navbar Start*/
+.nav-link{
+	color: #ffffff !important;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin: 0 25px !important;
+	padding: 38px 0 !important;
+	transition: 0.3s all ease-in-out;
+	padding-left: 0rem !important;
+	padding-right: 0rem !important;
+	border-bottom: 1px solid transparent;
+}
+.nav-link:hover{
+	color: #ff5722 !important;
+	border-bottom: 1px solid #ff5722;
+}
+.nav-item:last-child .nav-link{
+	margin-right: 0 !important;
+}
+/*
+.carousel-inner{
+	position: relative;
+}
+*/
+.navbar{
+	position: fixed;
+	z-index: 1111;
+	width: 100%;
+	margin: 0 0;
+	border-bottom: 1px solid #363636;
+	padding: 0rem 1rem !important;
+	padding-top: 18px !important;
+}
+
+.secondary{
+	background-color: #000 !important;
+	box-shadow: 0px 0px 17px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container{
+
+}
+/*
+.container{
+	padding-bottom: 7px;
+}
+*/
+
+/*  Navbar End*/
+
+.carousel-image img{
+	position: relative;
+}
+.carousel-image::after{   /* Used for Slider Image Overlay */
+	content:"";
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #000000;
+	opacity: 0.6;
+}
+.carousel-caption{       /* Used for Centering Slider Content */      
+	bottom: 44%;
+	transform: translate(0,50%);
+	-webkit-transform: translate(0,50%);
+	-moz-transform: translate(0,50%);
+}
+.carousel-content p{
+	color: #ffffff;
+	padding: 20px 0;
+}
+.banner-button{
+    margin-top: 50px;
+}
+.prev i, .next i{
+	font-size: 30px;
+	color: #ffffff;
+	background-color: #383939;
+	padding: 3px 11px;
+}
+.prev i:hover, .next i:hover{
+	background-color: #ff5722;
+}
+
+.carousel-indicators li{
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.carousel-indicators .active{
+	background-color: #ff5722;
+	border-color: #ff5722;
+}
+
+/* =====================
+      Slider End
+=====================*/
+.service{
+	margin: 90px 0 40px 0;
+}
+.service h3{
+	margin: 15px 0;
+}
+.service span{
+	border-bottom: 2px solid #ff5722;
+	display: block;
+	width: 55px;
+	margin: auto;
+}
+.service p{
+	margin: 23px;
+	line-height: 28px;
+}
+.mission{
+	margin: 70px 0 90px 0;
+}
+.mission h3{
+	font-size: 22px;
+	line-height: 22px;
+	color: #ff5722;
+	margin: 0;
+}
+.mission p{
+	font-size: 14px;
+	margin: 30px 27px 30px 0;
+}
